@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Double Beef Burger",
+        "price": "$9.67",
+        "image": "images/burger.pic.png"
+    },
+
+    {
+        "id": 2,
+        "name": "Veggie Pizza",
+        "price": "$10.99",
+        "image": "images/pizza.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Fried Ckicken",
+        "price": "$13.45",
+        "image": "images/fried chicken.pic.jpg"
+    },
+
+    {
+        "id": 5,
+        "name": "egg noodles",
+        "price": "$9.67",
+        "image": "images/egg-noodles.jpg"
+    },
+
+    {
+        "id": 6,
+        "name": "Sweet Snacks",
+        "price": "$7.55",
+        "image": "images/snacks.pic.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "Creamy icecreame",
+        "price": "$9.97",
+        "image": "images/icecream.pic.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Roll",
+        "price": "$4.70",
+        "image": "images/roll.pic.jpg"
+    },
+
+    {
+        "id": 9,
+        "name": "Veggie Noodles",
+        "price": "$100",
+        "image": "images/noodles.pic.png"
+    },
+
+    {
+        "id": 8,
+        "name": "Dum Biryani",
+        "price": "$70",
+        "image": "images/dum biryani.png"
+    }
+]
+
+
+
+
+
+
+
+
+

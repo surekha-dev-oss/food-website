@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" 
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- HEADER PART -->
+     <header>
+        <nav class="navbar flex between wrapper gap-4">
+            <a href="#" class="logo">Foodie.</a> 
+
+            <!-- DESKTOP MENU -->
+            <ul class="navlist flex gap-3">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                 <li>
+                    <a href="#">Menu</a>
+                </li>
+                 <li>
+                    <a href="#">Services</a>
+                </li>
+                 <li>
+                    <a href="#">About Us</a>
+                </li>
+                 <li>
+                    <a href="#">Contacts</a>
+                </li>
+                <li>
+                    <a href="#" class="btn">
+                    Sing in
+                    &nbsp;
+                    <i class="fa-sharp-duotone fa-solid fa-arrow-right-from-bracket"></i>
+                </a>
+                </li>
+            </ul>
+        
+
+            <div class="desktop-action flex gap-2">
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-value">0</span>
+                </a>
+                
+                <a href="#" class="hamburger">
+                   <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+            <!-- MOBILE MENU -->
+             <ul class="mobile-menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                 <li>
+                    <a href="#">Menu</a>
+                </li>
+                 <li>
+                    <a href="#">Services</a>
+                </li>
+                 <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                <a href="#">Contacts</a>
+                </li>
+                <li>
+                    <a href="#" class="btn">
+                    Sing in
+                    &nbsp;
+                    <i class="fa-sharp-duotone fa-solid fa-arrow-right-from-bracket"></i>
+                    </a>
+                </li>
+             </ul>
+    
+     </header>
+     <!-- SECTION PARTS -->
+    <main>
+        <section>
+            
+            <div class="hero-section flex wrapper">
+                
+                <div class="content">
+                    <h1>
+                        Enjoy Your Delisious 
+                        <span>Food</span>
+                    </h1>
+                    
+                    <p class="para">
+                        WE Will Fill Your Yummy Delicious<br>
+                        Food With Fast Delivery.
+                    </p>
+                    
+                    <div class="flex gap-2">
+                        <a href="#" class="btn">Order Now</a>
+
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </div>
+                </div>
+                     
+                    <div>
+                        <div class="image-container flex">
+                             <img src="images/perfect boy.pic.jpg">
+                        </div>
+                    </div>
+
+            </div>
+        
+        </section>
+        
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>Our Services</h5>
+                    <h2>How Does It Works?</h2>
+                </div>
+
+                <div class="flex text-center mt-4 gap-4">
+                    <div class="service-card">
+                        <div class="image-container">
+                            <img src="images/mobail app.pic.png">
+                        </div>
+                        <h3>Easy To Order</h3>
+                        <p>you only need a few step in ordring food.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="image-container">
+                            <img src="images/fast delivery.pic.png">
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p>fast delivery delivery that is always ontime even fast.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="image-container">
+                            <img src="images/grade.pic.png">
+                        </div>
+                        <h3>Best Quality</h3>
+                        <p>no only fast for ou in quality is also number one.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>Our Menu</h5>
+                    <h2>The Most Popular</h2>
+                </div>
+
+                <div class="card-list text-center flex mt-4 gap-3">
+                    
+                    <!-- <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/burger.pic.png">
+                        </div>
+                        <h4>Double Beef Burger </h4>
+                        <h4 class="price">$200</h4>
+                        <a href="#" class="btn">Add To Card</a>
+                    </div> -->
+
+                    <div class="order-card" data-id="101">
+                        <div class="card-image">
+                            <img src="images/sendwich.pic.png">
+                        </div>
+                        <h4>Extra Chees sendwich </h4>
+                        <h4 class="price">$350</h4>
+                        <a href="#" class="btn card-btn">Add To Card</a>
+                    </div>
+
+                    <div class="order-card" data-id="102">
+                        <div class="card-image">
+                            <img src="images/spring roll.pic.png">
+                        </div>
+                        <h4>Healthy Spring Roll </h4>
+                        <h4 class="price">$200</h4>
+                        <a href="#" class="btn card-btn">Add To Card</a>
+                    </div>
+
+                    <div class="order-card" data-id="103">
+                        <div class="card-image">
+                            <img src="images/123.pic.png">
+                        </div>
+                        <h4>Lasagna With Extra Chess </h4>
+                        <h4 class="price">$300</h4>
+                        <a href="#" class="btn card-btn">Add To Card</a>
+                    </div>
+                </div>
+
+                <!-- CART TAB -->
+                <div class="cart-tab">
+                    
+                    <h3>Your Cart</h3>
+
+                    <div class="cart-list">
+                        
+                        <!-- <div class="item">
+                            <div class="item-image">
+                                <img src="images/burger.pic.png">
+                            </div>
+                            <div>
+                                <h4>Double Breef Burger</h4>
+                                <h4 class="item-total">$200</h4>
+                            </div>
+                            <div class="flex">
+                                <a href="#" class="quantity-btn">
+                                    <i class="fa-solid fa-minus"></i>
+                                </a>
+                                <h4 class="quantity-value">1</h4>
+                                <a href="#" class="quantity-btn">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                                
+                        </div> -->
+
+                    </div>
+
+                    <div class="total-container">
+                        <h4>Total:</h4>
+                        <h4 class="cart-total">$0.00</h4>
+                    </div>
+
+                    <div class="btn-container flex gap-2">
+                        <a href="#" class="btn close-btn">Close</a>
+                        <a href="#" class="btn">Check out</a>
+
+                    </div>
+                
+                
+                
+                
+                </div>
+            
+            
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper p-top flex gap-3">
+                <div class="image-container">
+                    <img src="images/234.pic.jpg">
+                </div>
+
+                <div class="content">
+                    <h5>Our Reviews</h5>
+                    <h2>What They Say ?</h2>
+                     
+                    <div class="review-container">
+                        <div class="swiper mySwiper">
+                        <div class="swiper-wrapper mt-4">
+                            
+                            <div class="swiper-slide">
+                                <div class="flex gap-2">
+                                    <div class="profile">
+                                        <img src="images/prof2 (2).jpg">
+                                    </div>
+                                    <div>
+                                        <h4>Guy Hawkins</h4>
+                                        <div class="mt-half">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="para">
+                                    Foodie Is The Best. Besides The Many Delicious Meals, The Service Is
+                                    Also Very Good, Especially Very Fast Delivery. I Highly Recommend Foodie 
+                                    To You.
+                                </p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="flex gap-2">
+                                    <div class="profile 2">
+                                        <img src="images/profile.pic.png">
+                                    </div>
+                                    <div>
+                                        <h4>Sophia Anderson</h4>
+                                        <div class="mt-half">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="para">
+                                   Fresh Ingridiant, Creative Menu, And Warm Service
+                                   Make This Spot A Hidden Gem. perfect For Casual Dinners 
+                                   Or Special Nights Out. Truly A Foodie's Paradise! 
+                                </p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="flex gap-2">
+                                    <div class="profile 3">
+                                        <img src="images/prof3 (3).jpg">
+                                    </div>
+                                    <div>
+                                        <h4>Jonson Had</h4>
+                                        <div class="mt-half">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="para">
+                                   Dilicious Dishess, Cozy Ambiance, and Exceptional Service.
+                                   A Must-Visit For Lovers Seeking Bold Flavors And Unforgettable
+                                   Dining Experience. Highly Recommended, Every Bite Delights!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex between">
+                            <a href="#" class="arrow" id="prev">
+                                <i class="fa-solid fa-arrow-left-long"></i>
+                            </a>
+                            <a href="#" class="arrow" id="next">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper p-top ">
+                <div class="app-container flex between">
+                    <div class="image-container">
+                    <img src="images/app.pic.png">
+                </div>
+
+                <div>
+                    <div class="content" >
+                        <h5>Our Apllications</h5>
+                        <h2>Simple Way To <br>Order Your Food</h2>
+                        <p class="para">
+                            Discover Food Wherever And Whenver And Get 
+                            Your Food Delivery Quickly.
+                        </p>
+                        <a href="#" class="btn">Get The App</a>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>OurSubscribs</h5>
+                    <h2>Subscrib To Our Newsletter</h2>
+                    <p class="para m-auto">
+                        We Recommended You To Subscrib Our Newspaper , Drop Our 
+                        Email Below To Get Daily Update To Us.
+                    </p>
+
+                    <label class="input-container flex">
+                        <input type="email" name="email" id="email"
+                        placeholder="Enter Your Email Address" autocomplete="off">
+                        <a href="#" class="btn">Subscrib</a>
+                    </label>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <!-- FOOTER PART -->
+     <footer>
+        <div class="footer-container ">
+            <div class="flex wraper gap-4">
+                <div class="footer-wraper">
+                    <a href="#" class="logo">Foodie.</a>
+                   <p class="mt-one-half">
+                        WE Will Fill Your Yummy Delicious<br>
+                        Food With Fast Delivery.
+                    </p>
+
+                    <div class="flex gap-2 mt-one-half">
+
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <ul class="footer-wraper">
+                    <li>
+                        <h3>Our Menu</h3>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Special </a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Popular</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Catagory</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-wraper">
+                    <li>
+                        <h3>Company</h3>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Why Foodie</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Partner With Us</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">About Us</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">FAQ's</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-wraper gap-4">
+                    <li>
+                        <h3>Support</h3>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Account</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Support Center</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Feedback</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Contacts</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+     </footer>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+     <script src="script.js"></script>
+</body>
+</html>
